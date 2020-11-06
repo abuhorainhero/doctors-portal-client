@@ -10,7 +10,7 @@ import { useState } from 'react';
 const Doctors = () => {
     const [doctorData, setDoctorData] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/doctors')
+        fetch('https://guarded-mesa-64786.herokuapp.com/doctors')
         .then(res => res.json())
         .then(data => setDoctorData(data))
     }, [])

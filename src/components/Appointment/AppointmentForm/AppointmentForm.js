@@ -23,7 +23,7 @@ const AppointmentForm = ({ modalIsOpen, bookSubject, closeModal, date }) => {
         data.date = date;
         data.created = new Date();
 
-        fetch('http://localhost:5000/addAppointment', {
+        fetch('https://guarded-mesa-64786.herokuapp.com/addAppointment', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(data)
