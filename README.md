@@ -1,5 +1,5 @@
-< <img src="./Group 1329.png"/>
-Volunteer Network
+< 
+Doctor's Portal
 ======= 
 
 A Single page Application with dashboard where people can choice the date and time and fix an appointment. Any one doctor can review his appointments and prescribe medicine to a Patient from dashboard. Finally this is Online base Doctors & patient projects.
