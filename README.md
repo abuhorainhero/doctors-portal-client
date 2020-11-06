@@ -13,6 +13,7 @@ A Single page Application with dashboard where people can choice the date and ti
 ## Front End Technology
 <ul>
     <li>React.js</li>
+    <li>react-calendar</li>
     <li>Bootstrap4</li>
     <li>CSS | CSS3</li>
 </ul>
